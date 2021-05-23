@@ -1,0 +1,47 @@
+.skills {
+  background: #efefef;
+}
+
+.skillContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.skillContainer dl {
+ flex-basis: 33.33%;
+ border-right: 2px solid rgba(0,0,0,0.1);
+ padding-left: 2em;
+ margin: 20px 0;
+}
+
+.skillContainer dl:last-child {
+  border-right: none;
+}
+
+
+dt {
+  font-weight: bold;
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+
+dd {
+  color: #666;
+}
+
+.text {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.skills figure {
+  width: 100%;
+  text-align: center;
+  /* outline: 2px solid red; */
+  padding-top: 30px;
+}
+.skillsImg {
+  width: 40%;
+}

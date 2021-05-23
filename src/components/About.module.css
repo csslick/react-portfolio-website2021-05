@@ -1,0 +1,17 @@
+.articleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.articleContainer article {
+  flex: 1;
+}
+
+.articleContainer figure {
+  text-align: center;
+  /* background: #ccc; */
+}
+
+.articleContainer figure img {
+  width: 80%;
+}
