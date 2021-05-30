@@ -6,25 +6,3 @@
   padding: 0 20px;
 }
 
-.pageHeader {
-  text-align: center;
-  padding: 40px;
-}
-
-.pageHeader h1 {
-  font-size: 32px;
-  position: relative;
-  display: inline-block;
-}
-
-.pageHeader h1::after {
-  content: '';
-  display: block;
-  width: 24px;
-  height: 24px;
-  background: #9b59b6;
-  border-radius: 50%;
-  position: absolute;
-  left: -8px; top: 0;
-  z-index: -1;
-}

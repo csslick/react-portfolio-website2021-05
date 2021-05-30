@@ -10,10 +10,10 @@
 }
 
 .skillContainer dl {
- flex-basis: 33.33%;
- border-right: 2px solid rgba(0,0,0,0.1);
- padding-left: 2em;
- margin: 20px 0;
+  flex-basis: 33.33%;
+  border-right: 2px solid rgba(0,0,0,0.1);
+  padding-left: 2em;
+  margin: 20px 0;
 }
 
 .skillContainer dl:last-child {
