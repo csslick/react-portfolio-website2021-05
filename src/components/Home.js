@@ -4,7 +4,7 @@ import homeTitle from '../images/home-title.svg'
 
 export default function Home() {
   return (
-    <section className={style.home}>
+    <section className={style.home} id="home">
       <div className={`${style.container} container`}>
         <div className={style.titleContainer}>
           <div className={style.headerGroup}>

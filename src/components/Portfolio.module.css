@@ -1,13 +1,12 @@
 .list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .list > li {
-  margin-right: 15px;
-}
-
-.list > li:last-child {
-  margin-right: 0px;
+  width: 32%;
+  margin-bottom: 15px;
 }
 
 .list > li > a {

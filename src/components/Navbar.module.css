@@ -17,6 +17,7 @@
 
 .Navbar ul li a {
   color: #fff;
+  font-weight: 600;
 }
 
 .Navbar a:hover {

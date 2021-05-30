@@ -5,7 +5,7 @@ import profile from '../images/profile.jpg'
 
 export default function About() {
   return (
-    <section className={style.about}>
+    <section className={style.about} id="about">
       <div className="container">
         <PageHeader title='About Me' />
         <div className={style.articleContainer}>

@@ -2,7 +2,6 @@ import React from 'react'
 import PageHeader from './PageHeader'
 import style from './Portfolio.module.css'
 
-
 export default function Portfolio() {
   const lists = [
     {
@@ -23,7 +22,7 @@ export default function Portfolio() {
   ]
 
   return (
-    <section className={style.portfolio}>
+    <section className={style.portfolio} id="portfolio">
       <div className="container">
       <PageHeader title='Portfolio' />
         <ul className={style.list}>
@@ -34,6 +33,7 @@ export default function Portfolio() {
                   <a href={list.link}>
                     <img src={list.imgUrl} alt={list.title} />
                   </a>
+                  <p className="title">{list.title}</p>
                 </li>
               )
             })
