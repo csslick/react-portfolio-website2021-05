@@ -7,10 +7,10 @@ export default function Contact() {
     <section className={style.contact} id="contact">
       <div className="container">
         <div className={style.icons}>
-          <a href="http://naver.com" target="_blank">
+          <a href="https://www.youtube.com/" target="_blank">
             <FaYoutube color="white" size="30" />
           </a>
-          <a href="http://naver.com" target="_blank">
+          <a href="https://github.com/" target="_blank">
             <FaGithub color="white" size="30" />
           </a>
           <a href="http://naver.com" target="_blank">
